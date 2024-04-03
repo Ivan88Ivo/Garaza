@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@100;300;700;900 & family= Martel:wght@600 & family= Roboto+Condensed:ital, wght@0,300;0,400;1,700 & family= Roboto:wght@100 & family= Vesper+Libre:wght@500 & display=swap');
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  background:#AFC8AD;
+}
+.container{
+  width: 100%;
+  }
+.navigation{
+  height: 80px;
+  margin: 10px;
+}
+nav ul li{
+  display: inline-block;
+  padding: 10px;
+}
+ul li a{
+  color: #6e6e6e;
+  letter-spacing: 0.1rem;
+}
+ul li a:hover{
+  color: #3533b8;
+}
+.manu li{
+float: left;
+padding: 35px;
+}
+.container .row{
+  width: 95%;
+  margin: auto;
+}
+.container .row .header{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.container .row .header h1{
+  padding-top: 30px;
+  font-size: 45px;
+  color: #3533b8;
+}
+.container .row .header p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6e6e6e;
+  }
+  .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  }
+  .content .card{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .content .card img{
+    width: 100%;
+    height: auto;
+  }
+  .content .card h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .content .card p{
+    font-size: 15px;
+    color: #6e6e6e;
+    line-height: 1.5;
+    padding: 10px;
+  }
+  @media  screen and (max-width:768px) {
+    .content{
+       flex-direction: column;
+    }
+  }
+  .footer{
+    text-align: center;
+  }  

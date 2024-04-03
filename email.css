@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background:#c0c0f0;
+ }
+ h1{
+    text-align: center;
+ }
+ form {
+    margin: 3% 15%;
+ }
+ div, textarea, button {
+    margin: 2% 1%;
+ }
+ fieldset {
+     padding: 2%;
+     border: 2px #014e79 solid;
+     border-radius: 5px;
+ }
+ label {
+    font-size: 0.4em;
+    margin-right: 1em;
+ }
+ #div_nm, #div_nm, #div_st {
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+ }
+ input, select {
+    flex-grow: 1;
+    font-size: 1em;
+    border: 1px #014e79 solid;
+    border-radius: 3px;
+    color: #014e79;
+    padding: 0.2%;
+ }
+ #choiceStatut div {
+    font-size: 0.8em;
+    margin-bottom: 2%;
+ }
+ input[type="radio"] {
+    margin-right: 1em;
+ }
+ #message {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+ }
+ #message textarea {
+    width: 30%;
+    font-size: 1em;
+    flex-grow: 0.9em;
+    border-radius: 5px;
+    border: 1px #014e79 solid;
+    padding: 1%;
+ }
+ button {
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: beige;
+    padding: 0.7em 2em;
+    font-size: 0.5em;
+    border: none;
+    margin: auto;
+ }
+ button:hover {
+    background-color: #014e79 ;
+    transition-duration: 0.5s;
+ }
+ .masque {
+    opacity: 0%;
+    margin-bottom: -4%;
+ }
+ .app {
+    opacity: 100%;
+    transition-duration: 0.5s;
+    margin-bottom: 0%;
+ }
+ .disp {
+    opacity: 0%;
+    transition-duration: 0.5s;
+    margin-bottom: -4%;
+ }
